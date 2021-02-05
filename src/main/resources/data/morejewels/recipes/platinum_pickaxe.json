@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "morejewels:jade"
+      "item": "morejewels:platinum"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "morejewels:jade_pickaxe",
+    "item": "morejewels:platinum_pickaxe",
     "count": 1
   }
 }

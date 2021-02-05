@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    " S ",
-    " S "
+    " ##",
+    " #S",
+    "  S"
   ],
   "key": {
     "#": {
-      "item": "morejewels:jade"
+      "item": "morejewels:amethyst"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "morejewels:jade_pickaxe",
+    "item": "morejewels:amethyst_axe",
     "count": 1
   }
 }

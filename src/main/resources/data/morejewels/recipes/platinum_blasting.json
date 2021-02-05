@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_platinum"
+  },
+  "result": "morejewels:platinum",
+  "experience": 3,
+  "cookingtime": 100
+}

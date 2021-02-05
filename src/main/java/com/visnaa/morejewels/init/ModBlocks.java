@@ -33,4 +33,6 @@ public class ModBlocks
     public static final RegistryObject<Block> AMETHYST_ORE = BLOCKS.register("amethyst_ore", () ->  new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
     public static final RegistryObject<Block> TOPAZ_BLOCK = BLOCKS.register("topaz_block", () ->  new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
     public static final RegistryObject<Block> TOPAZ_ORE = BLOCKS.register("topaz_ore", () ->  new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> PLATINUM_BLOCK = BLOCKS.register("platinum_block", () ->  new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore", () ->  new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
 }

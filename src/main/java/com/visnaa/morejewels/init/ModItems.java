@@ -48,6 +48,8 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_AMETHYST = ITEMS.register("rough_amethyst", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> ROUGH_TOPAZ = ITEMS.register("rough_topaz", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> PLATINUM = ITEMS.register("platinum", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_PLATINUM = ITEMS.register("rough_platinum", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
     public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
@@ -73,6 +75,9 @@ public class ModItems
     public static final RegistryObject<BlockItem> AMETHYST_ORE = ITEMS.register("amethyst_ore", () -> new BlockItem(ModBlocks.AMETHYST_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> TOPAZ_BLOCK = ITEMS.register("topaz_block", () -> new BlockItem(ModBlocks.TOPAZ_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> TOPAZ_ORE = ITEMS.register("topaz_ore", () -> new BlockItem(ModBlocks.TOPAZ_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> PLATINUM_BLOCK = ITEMS.register("platinum_block", () -> new BlockItem(ModBlocks.PLATINUM_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> PLATINUM_ORE = ITEMS.register("platinum_ore", () -> new BlockItem(ModBlocks.PLATINUM_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+
 
     //Tools
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
@@ -129,6 +134,12 @@ public class ModItems
     public static final RegistryObject<AxeItem> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<HoeItem> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
 
+    public static final RegistryObject<SwordItem> PLATINUM_SWORD = ITEMS.register("platinum_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> PLATINUM_AXE = ITEMS.register("platinum_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> PLATINUM_HOE = ITEMS.register("platinum_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
@@ -174,4 +185,9 @@ public class ModItems
     public static final RegistryObject<ArmorItem> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate", () -> new ArmorItem(CustomMaterial.TOPAZ, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings", () -> new ArmorItem(CustomMaterial.TOPAZ, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> TOPAZ_BOOTS = ITEMS.register("topaz_boots", () -> new ArmorItem(CustomMaterial.TOPAZ, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> PLATINUM_HELMET = ITEMS.register("platinum_helmet", () -> new ArmorItem(CustomMaterial.PLATINUM, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> PLATINUM_CHESTPLATE = ITEMS.register("platinum_chestplate", () -> new ArmorItem(CustomMaterial.PLATINUM, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> PLATINUM_LEGGINGS = ITEMS.register("platinum_leggings", () -> new ArmorItem(CustomMaterial.PLATINUM, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> PLATINUM_BOOTS = ITEMS.register("platinum_boots", () -> new ArmorItem(CustomMaterial.PLATINUM, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
 }

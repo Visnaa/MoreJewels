@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:platinum",
+    "count": 9
+  }
+}
