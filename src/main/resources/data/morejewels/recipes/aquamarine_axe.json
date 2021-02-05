@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " RR",
+        " SR",
+        " S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:aquamarine"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:aquamarine_axe",
+        "count": 1
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        "R R",
+        "R R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:jade"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:jade_boots",
+        "count": 1
+    }
+}

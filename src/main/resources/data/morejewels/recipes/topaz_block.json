@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morejewels:topaz"
+    }
+  },
+  "result": {
+    "item": "morejewels:topaz_block",
+    "count": 1
+  }
+}

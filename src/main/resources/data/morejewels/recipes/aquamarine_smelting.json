@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_aquamarine"
+  },
+  "result": "morejewels:aquamarine",
+  "experience": 2,
+  "cookingtime": 200
+}

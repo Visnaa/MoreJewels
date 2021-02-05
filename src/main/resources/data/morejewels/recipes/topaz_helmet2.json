@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "   ",
+    "RRR",
+    "R R"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:topaz"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:topaz_helmet",
+    "count": 1
+  }
+}

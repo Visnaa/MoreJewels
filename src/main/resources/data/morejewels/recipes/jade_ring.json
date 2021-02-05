@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " J ",
+    "JGJ",
+    " J "
+  ],
+
+  "key":
+  {
+    "G":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "J":
+    {
+      "item": "morejewels:jade"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:jade_ring",
+    "count": 1
+  }
+}

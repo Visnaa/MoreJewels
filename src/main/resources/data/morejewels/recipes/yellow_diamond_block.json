@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morejewels:yellow_diamond"
+    }
+  },
+  "result": {
+    "item": "morejewels:yellow_diamond_block",
+    "count": 1
+  }
+}

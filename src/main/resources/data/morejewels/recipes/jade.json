@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:jade_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:jade",
+    "count": 9
+  }
+}

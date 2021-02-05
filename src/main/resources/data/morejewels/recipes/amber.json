@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:amber_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:amber",
+    "count": 9
+  }
+}

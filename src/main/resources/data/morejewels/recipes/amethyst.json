@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:amethyst_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:amethyst",
+    "count": 9
+  }
+}

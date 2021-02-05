@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_opal"
+  },
+  "result": "morejewels:opal",
+  "experience": 2,
+  "cookingtime": 200
+}

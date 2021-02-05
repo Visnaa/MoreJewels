@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_yellow_diamond"
+  },
+  "result": "morejewels:yellow_diamond",
+  "experience": 3,
+  "cookingtime": 100
+}

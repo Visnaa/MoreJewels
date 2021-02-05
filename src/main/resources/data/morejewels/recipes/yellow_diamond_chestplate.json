@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:yellow_diamond"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:yellow_diamond_chestplate",
+        "count": 1
+    }
+}

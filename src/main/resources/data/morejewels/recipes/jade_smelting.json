@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_jade"
+  },
+  "result": "morejewels:jade",
+  "experience": 2,
+  "cookingtime": 200
+}

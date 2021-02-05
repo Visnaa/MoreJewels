@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " E ",
+    " A ",
+    " S "
+  ],
+
+  "key":
+  {
+    "E":
+    {
+      "item": "minecraft:spider_eye"
+    },
+    "A":
+    {
+      "item": "minecraft:apple"
+    },
+    "S":
+    {
+      "item": "minecraft:sugar"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:bad_apple",
+    "count": 1
+  }
+}

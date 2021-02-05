@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_sapphire"
+  },
+  "result": "morejewels:sapphire",
+  "experience": 2,
+  "cookingtime": 200
+}

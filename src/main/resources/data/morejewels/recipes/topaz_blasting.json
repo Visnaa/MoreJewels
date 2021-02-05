@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_topaz"
+  },
+  "result": "morejewels:topaz",
+  "experience": 3,
+  "cookingtime": 100
+}

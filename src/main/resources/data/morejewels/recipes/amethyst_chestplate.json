@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:amethyst"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:amethyst_chestplate",
+        "count": 1
+    }
+}

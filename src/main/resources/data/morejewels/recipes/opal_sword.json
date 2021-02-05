@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "  R",
+        "  R",
+        "  S"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:opal"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:opal_sword",
+        "count": 1
+    }
+}

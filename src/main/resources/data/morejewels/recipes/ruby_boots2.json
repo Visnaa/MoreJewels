@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R R",
+        "R R",
+        "   "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:ruby"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:ruby_boots",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_opal"
+  },
+  "result": "morejewels:opal",
+  "experience": 3,
+  "cookingtime": 100
+}

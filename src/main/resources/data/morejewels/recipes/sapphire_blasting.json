@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_sapphire"
+  },
+  "result": "morejewels:sapphire",
+  "experience": 3,
+  "cookingtime": 100
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morejewels:amethyst"
+    }
+  },
+  "result": {
+    "item": "morejewels:amethyst_block",
+    "count": 1
+  }
+}

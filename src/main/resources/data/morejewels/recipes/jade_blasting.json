@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_jade"
+  },
+  "result": "morejewels:jade",
+  "experience": 3,
+  "cookingtime": 100
+}

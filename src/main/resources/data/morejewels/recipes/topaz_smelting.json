@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_topaz"
+  },
+  "result": "morejewels:topaz",
+  "experience": 2,
+  "cookingtime": 200
+}

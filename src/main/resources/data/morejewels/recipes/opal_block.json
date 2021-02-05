@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morejewels:opal"
+    }
+  },
+  "result": {
+    "item": "morejewels:opal_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_aquamarine"
+  },
+  "result": "morejewels:aquamarine",
+  "experience": 3,
+  "cookingtime": 100
+}

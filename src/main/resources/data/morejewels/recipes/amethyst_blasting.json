@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_amethyst"
+  },
+  "result": "morejewels:amethyst",
+  "experience": 3,
+  "cookingtime": 100
+}

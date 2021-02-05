@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        "RRR",
+        "R R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "morejewels:amber"
+        }
+    },
+    
+    "result":
+    {
+        "item": "morejewels:amber_helmet",
+        "count": 1
+    }
+}

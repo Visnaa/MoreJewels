@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_ruby"
+  },
+  "result": "morejewels:ruby",
+  "experience": 3,
+  "cookingtime": 100
+}

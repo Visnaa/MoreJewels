@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved"
+[[mods]] #mandatory
+modId="morejewels" #mandatory
+version="1.0" #mandatory
+displayName="More Jewels" #mandatory
+authors="Visnaa" #optional
+description='''
+This mod add to Minecraft more jewels like ruby and sapphire!
+'''
+[[dependencies.morejewels]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.morejewels]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

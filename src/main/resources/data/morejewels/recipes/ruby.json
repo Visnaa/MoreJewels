@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:ruby",
+    "count": 9
+  }
+}
