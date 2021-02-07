@@ -41,7 +41,7 @@ public enum CustomMaterial implements IArmorMaterial
     TOPAZ("morejewels:topaz", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.fromItems(ModItems.TOPAZ.get());
     }),
-    PLATINUM("morejewels:platinium", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+    PLATINUM("morejewels:platinum", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.fromItems(ModItems.PLATINUM.get());
     });
 
