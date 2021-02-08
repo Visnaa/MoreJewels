@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " RR",
+    "  S",
+    "  S"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:beryllium"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:beryllium_hoe",
+    "count": 1
+  }
+}

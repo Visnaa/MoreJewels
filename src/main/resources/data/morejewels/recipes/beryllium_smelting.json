@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_beryllium"
+  },
+  "result": "morejewels:beryllium",
+  "experience": 2,
+  "cookingtime": 200
+}

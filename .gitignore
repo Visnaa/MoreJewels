@@ -24,3 +24,6 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 logs
+
+# Visnaa help files
+Export.bat

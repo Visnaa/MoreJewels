@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_beryllium"
+  },
+  "result": "morejewels:beryllium",
+  "experience": 3,
+  "cookingtime": 100
+}
