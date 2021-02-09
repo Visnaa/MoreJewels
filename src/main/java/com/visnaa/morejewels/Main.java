@@ -18,7 +18,7 @@ import org.apache.logging.log4j.Logger;
 public class Main
 {
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final ItemGroup ITEM_GROUP = new MoreJewelsTab("item_group");
+    public static final ItemGroup ITEM_GROUP = new MoreJewelsTab("morejewels_tab");
 
     public Main() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

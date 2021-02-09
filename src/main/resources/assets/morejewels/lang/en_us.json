@@ -1,5 +1,4 @@
 {
-  "itemGroup.morejewels.general": "More Jewels",
   "item.morejewels.ruby": "Ruby",
   "item.morejewels.rough_ruby": "Rough Ruby",
   "block.morejewels.ruby_block": "Block of Ruby",
@@ -144,7 +143,7 @@
   "item.morejewels.beryllium_pickaxe": "Beryllium Pickaxe",
   "item.morejewels.beryllium_shovel": "Beryllium Shovel",
   "item.morejewels.beryllium_hoe": "Beryllium Hoe",
-  "itemGroup.item_group": "More Jewels",
+  "itemGroup.morejewels_tab": "More Jewels",
   "item.morejewels.bad_apple": "Bad Apple",
   "item.morejewels.jade_ring": "Jade Ring"
 }
