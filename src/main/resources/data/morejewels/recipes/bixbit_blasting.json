@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_bixbit"
+  },
+  "result": "morejewels:bixbit",
+  "experience": 3,
+  "cookingtime": 100
+}

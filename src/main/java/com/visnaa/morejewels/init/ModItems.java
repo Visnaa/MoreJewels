@@ -52,6 +52,8 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_PLATINUM = ITEMS.register("rough_platinum", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> BERYLLIUM = ITEMS.register("beryllium", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> ROUGH_BERYLLIUM = ITEMS.register("rough_beryllium", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> BIXBIT = ITEMS.register("bixbit", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_BIXBIT = ITEMS.register("rough_bixbit", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
     public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
@@ -81,6 +83,8 @@ public class ModItems
     public static final RegistryObject<BlockItem> PLATINUM_ORE = ITEMS.register("platinum_ore", () -> new BlockItem(ModBlocks.PLATINUM_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> BERYLLIUM_BLOCK = ITEMS.register("beryllium_block", () -> new BlockItem(ModBlocks.BERYLLIUM_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> BERYLLIUM_ORE = ITEMS.register("beryllium_ore", () -> new BlockItem(ModBlocks.BERYLLIUM_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> BIXBIT_BLOCK = ITEMS.register("bixbit_block", () -> new BlockItem(ModBlocks.BIXBIT_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> BIXBIT_ORE = ITEMS.register("bixbit_ore", () -> new BlockItem(ModBlocks.BIXBIT_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
 
 
     //Tools
@@ -150,6 +154,12 @@ public class ModItems
     public static final RegistryObject<AxeItem> BERYLLIUM_AXE = ITEMS.register("beryllium_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<HoeItem> BERYLLIUM_HOE = ITEMS.register("beryllium_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
 
+    public static final RegistryObject<SwordItem> BIXBIT_SWORD = ITEMS.register("bixbit_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> BIXBIT_SHOVEL = ITEMS.register("bixbit_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> BIXBIT_PICKAXE = ITEMS.register("bixbit_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> BIXBIT_AXE = ITEMS.register("bixbit_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> BIXBIT_HOE = ITEMS.register("bixbit_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
@@ -205,4 +215,9 @@ public class ModItems
     public static final RegistryObject<ArmorItem> BERYLLIUM_CHESTPLATE = ITEMS.register("beryllium_chestplate", () -> new ArmorItem(CustomMaterial.BERYLLIUM, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> BERYLLIUM_LEGGINGS = ITEMS.register("beryllium_leggings", () -> new ArmorItem(CustomMaterial.BERYLLIUM, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> BERYLLIUM_BOOTS = ITEMS.register("beryllium_boots", () -> new ArmorItem(CustomMaterial.BERYLLIUM, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> BIXBIT_HELMET = ITEMS.register("bixbit_helmet", () -> new ArmorItem(CustomMaterial.BIXBIT, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> BIXBIT_CHESTPLATE = ITEMS.register("bixbit_chestplate", () -> new ArmorItem(CustomMaterial.BIXBIT, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> BIXBIT_LEGGINGS = ITEMS.register("bixbit_leggings", () -> new ArmorItem(CustomMaterial.BIXBIT, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> BIXBIT_BOOTS = ITEMS.register("bixbit_boots", () -> new ArmorItem(CustomMaterial.BIXBIT, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
 }

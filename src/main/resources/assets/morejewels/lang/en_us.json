@@ -1,4 +1,7 @@
 {
+  "itemGroup.morejewels_tab": "More Jewels",
+  "item.morejewels.bad_apple": "Bad Apple",
+  "item.morejewels.jade_ring": "Jade Ring",
   "item.morejewels.ruby": "Ruby",
   "item.morejewels.rough_ruby": "Rough Ruby",
   "block.morejewels.ruby_block": "Block of Ruby",
@@ -143,7 +146,17 @@
   "item.morejewels.beryllium_pickaxe": "Beryllium Pickaxe",
   "item.morejewels.beryllium_shovel": "Beryllium Shovel",
   "item.morejewels.beryllium_hoe": "Beryllium Hoe",
-  "itemGroup.morejewels_tab": "More Jewels",
-  "item.morejewels.bad_apple": "Bad Apple",
-  "item.morejewels.jade_ring": "Jade Ring"
+  "item.morejewels.bixbit": "Bixbit",
+  "item.morejewels.rough_bixbit": "Rough Bixbit",
+  "block.morejewels.bixbit_block": "Block of Bixbit",
+  "block.morejewels.bixbit_ore": "Bixbit Ore",
+  "item.morejewels.bixbit_helmet": "Bixbit Helmet",
+  "item.morejewels.bixbit_chestplate": "Bixbit Chestplate",
+  "item.morejewels.bixbit_leggings": "Bixbit Leggings",
+  "item.morejewels.bixbit_boots": "Bixbit Boots",
+  "item.morejewels.bixbit_sword": "Bixbit Sword",
+  "item.morejewels.bixbit_axe": "Bixbit Axe",
+  "item.morejewels.bixbit_pickaxe": "Bixbit Pickaxe",
+  "item.morejewels.bixbit_shovel": "Bixbit Shovel",
+  "item.morejewels.bixbit_hoe": "Bixbit Hoe"
 }
