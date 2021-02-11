@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_malachite"
+  },
+  "result": "morejewels:malachite",
+  "experience": 3,
+  "cookingtime": 100
+}

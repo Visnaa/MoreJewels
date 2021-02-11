@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_malachite"
+  },
+  "result": "morejewels:malachite",
+  "experience": 2,
+  "cookingtime": 200
+}

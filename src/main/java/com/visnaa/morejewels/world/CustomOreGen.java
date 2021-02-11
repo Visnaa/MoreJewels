@@ -72,6 +72,10 @@ public class CustomOreGen
                 OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.BIXBIT_ORE.get().getDefaultState(), 4))
                 .range(40).square()
                 .func_242731_b(64)));
+        overworldOres.add(register("malachite_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.MALACHITE_ORE.get().getDefaultState(), 4))
+                .range(40).square()
+                .func_242731_b(64)));
         
         //netherOres.add(register("", Feature.ORE.withConfiguration(new OreFeatureConfig(
         //        OreFeatureConfig.FillerBlockType.NETHERRACK, ModBlocks."BLOCK_NAME".get().getDefaultState(), 4))

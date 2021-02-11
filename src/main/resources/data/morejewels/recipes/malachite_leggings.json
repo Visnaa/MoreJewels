@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "RRR",
+    "R R",
+    "R R"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:malachite"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:malachite_leggings",
+    "count": 1
+  }
+}

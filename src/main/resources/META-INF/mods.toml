@@ -3,7 +3,7 @@ loaderVersion="[35,)" #mandatory
 license="All rights reserved"
 [[mods]] #mandatory
 modId="morejewels" #mandatory
-version="2.0" #mandatory
+version="2.1" #mandatory
 displayName="More Jewels" #mandatory
 authors="Visnaa" #optional
 description='''

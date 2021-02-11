@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "morejewels:blocks/malachite_ore"
+  }
+}
