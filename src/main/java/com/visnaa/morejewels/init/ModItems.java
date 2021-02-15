@@ -56,6 +56,8 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_BIXBIT = ITEMS.register("rough_bixbit", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> ROUGH_MALACHITE = ITEMS.register("rough_malachite", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ONYX = ITEMS.register("onyx", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_ONYX = ITEMS.register("rough_onyx", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
     public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
@@ -71,7 +73,6 @@ public class ModItems
     public static final RegistryObject<BlockItem> JADE_BLOCK = ITEMS.register("jade_block", () -> new BlockItem(ModBlocks.JADE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> JADE_ORE = ITEMS.register("jade_ore", () -> new BlockItem(ModBlocks.JADE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> OPAL_BLOCK = ITEMS.register("opal_block", () -> new BlockItem(ModBlocks.OPAL_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
-    public static final RegistryObject<BlockItem> POLISHED_OPAL_BLOCK = ITEMS.register("polished_opal_block", () -> new BlockItem(ModBlocks.POLISHED_OPAL_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> OPAL_ORE = ITEMS.register("opal_ore", () -> new BlockItem(ModBlocks.OPAL_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> YELLOW_DIAMOND_BLOCK = ITEMS.register("yellow_diamond_block", () -> new BlockItem(ModBlocks.YELLOW_DIAMOND_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> YELLOW_DIAMOND_ORE = ITEMS.register("yellow_diamond_ore", () -> new BlockItem(ModBlocks.YELLOW_DIAMOND_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
@@ -89,6 +90,8 @@ public class ModItems
     public static final RegistryObject<BlockItem> BIXBIT_ORE = ITEMS.register("bixbit_ore", () -> new BlockItem(ModBlocks.BIXBIT_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> MALACHITE_BLOCK = ITEMS.register("malachite_block", () -> new BlockItem(ModBlocks.MALACHITE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> MALACHITE_ORE = ITEMS.register("malachite_ore", () -> new BlockItem(ModBlocks.MALACHITE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(ModBlocks.ONYX_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(ModBlocks.ONYX_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
 
 
     //Tools
@@ -170,6 +173,12 @@ public class ModItems
     public static final RegistryObject<AxeItem> MALACHITE_AXE = ITEMS.register("malachite_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<HoeItem> MALACHITE_HOE = ITEMS.register("malachite_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
 
+    public static final RegistryObject<SwordItem> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> ONYX_AXE = ITEMS.register("onyx_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
@@ -235,4 +244,9 @@ public class ModItems
     public static final RegistryObject<ArmorItem> MALACHITE_CHESTPLATE = ITEMS.register("malachite_chestplate", () -> new ArmorItem(CustomMaterial.MALACHITE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> MALACHITE_LEGGINGS = ITEMS.register("malachite_leggings", () -> new ArmorItem(CustomMaterial.MALACHITE, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> MALACHITE_BOOTS = ITEMS.register("malachite_boots", () -> new ArmorItem(CustomMaterial.MALACHITE, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> ONYX_HELMET = ITEMS.register("onyx_helmet", () -> new ArmorItem(CustomMaterial.ONYX, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> ONYX_CHESTPLATE = ITEMS.register("onyx_chestplate", () -> new ArmorItem(CustomMaterial.ONYX, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> ONYX_LEGGINGS = ITEMS.register("onyx_leggings", () -> new ArmorItem(CustomMaterial.ONYX, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> ONYX_BOOTS = ITEMS.register("onyx_boots", () -> new ArmorItem(CustomMaterial.ONYX, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "RRR",
+    "R R",
+    "R R"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:onyx"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:onyx_leggings",
+    "count": 1
+  }
+}

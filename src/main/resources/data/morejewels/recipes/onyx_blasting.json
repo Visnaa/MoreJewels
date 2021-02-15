@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_onyx"
+  },
+  "result": "morejewels:onyx",
+  "experience": 3,
+  "cookingtime": 100
+}

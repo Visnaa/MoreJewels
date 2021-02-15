@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "morejewels:blocks/polished_opal_block"
+    "all": "morejewels:blocks/onyx_block"
   }
 }

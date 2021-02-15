@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " RR",
+    " RS",
+    "  S"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:onyx"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:onyx_axe",
+    "count": 1
+  }
+}
