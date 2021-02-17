@@ -41,4 +41,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> MALACHITE_ORE = BLOCKS.register("malachite_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ONYX_ORE = BLOCKS.register("onyx_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> PERIDOT_BLOCK = BLOCKS.register("peridot_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> PERIDOT_ORE = BLOCKS.register("peridot_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
 }

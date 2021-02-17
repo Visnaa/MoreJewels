@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " RR",
+    " SR",
+    " S "
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:peridot"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:peridot_axe",
+    "count": 1
+  }
+}

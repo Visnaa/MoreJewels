@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_peridot"
+  },
+  "result": "morejewels:peridot",
+  "experience": 3,
+  "cookingtime": 100
+}
