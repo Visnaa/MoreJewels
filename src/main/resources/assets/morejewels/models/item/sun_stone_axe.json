@@ -1,0 +1,6 @@
+{
+  "parent":"item/handheld",
+  "textures":{
+    "layer0":"morejewels:items/sun_stone_axe"
+  }
+}

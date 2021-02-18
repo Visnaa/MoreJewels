@@ -84,6 +84,14 @@ public class CustomOreGen
                 OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.PERIDOT_ORE.get().getDefaultState(), 4))
                 .range(40).square()
                 .func_242731_b( 8)));
+        overworldOres.add(register("moon_stone_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.MOON_STONE_ORE.get().getDefaultState(), 4))
+                .range(40).square()
+                .func_242731_b( 8)));
+        overworldOres.add(register("sun_stone_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, ModBlocks.SUN_STONE_ORE.get().getDefaultState(), 4))
+                .range(40).square()
+                .func_242731_b( 8)));
         
         //netherOres.add(register("", Feature.ORE.withConfiguration(new OreFeatureConfig(
         //        OreFeatureConfig.FillerBlockType.NETHERRACK, ModBlocks."BLOCK_NAME".get().getDefaultState(), 4))

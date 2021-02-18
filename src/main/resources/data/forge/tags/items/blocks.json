@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/ruby_block",
+    "#forge:ores/sapphire_block",
+    "#forge:ores/aquamarine_block",
+    "#forge:ores/jade_block",
+    "#forge:ores/opal_block",
+    "#forge:ores/yellow_diamond_block",
+    "#forge:ores/amber_block",
+    "#forge:ores/amethyst_block",
+    "#forge:ores/topaz_block",
+    "#forge:ores/platinum_block",
+    "#forge:ores/beryllium_block",
+    "#forge:ores/bixbit_block",
+    "#forge:ores/malachite_block",
+    "#forge:ores/onyx_block",
+    "#forge:ores/peridot_block",
+    "#forge:ores/moon_stone_block",
+    "#forge:ores/sun_stone_block"
+  ]
+}

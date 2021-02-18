@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_moon_stone"
+  },
+  "result": "morejewels:moon_stone",
+  "experience": 3,
+  "cookingtime": 100
+}

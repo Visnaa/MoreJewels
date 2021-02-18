@@ -60,6 +60,10 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_ONYX = ITEMS.register("rough_onyx", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> ROUGH_PERIDOT = ITEMS.register("rough_peridot", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> MOON_STONE = ITEMS.register("moon_stone", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_MOON_STONE = ITEMS.register("rough_moon_stone", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> SUN_STONE = ITEMS.register("sun_stone", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_SUN_STONE = ITEMS.register("rough_sun_stone", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
     public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
@@ -96,6 +100,10 @@ public class ModItems
     public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(ModBlocks.ONYX_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> PERIDOT_BLOCK = ITEMS.register("peridot_block", () -> new BlockItem(ModBlocks.PERIDOT_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> PERIDOT_ORE = ITEMS.register("peridot_ore", () -> new BlockItem(ModBlocks.PERIDOT_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> MOON_STONE_BLOCK = ITEMS.register("moon_stone_block", () -> new BlockItem(ModBlocks.MOON_STONE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> MOON_STONE_ORE = ITEMS.register("moon_stone_ore", () -> new BlockItem(ModBlocks.MOON_STONE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> SUN_STONE_BLOCK = ITEMS.register("sun_stone_block", () -> new BlockItem(ModBlocks.SUN_STONE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> SUN_STONE_ORE = ITEMS.register("sun_stone_ore", () -> new BlockItem(ModBlocks.SUN_STONE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
 
 
     //Tools
@@ -189,6 +197,18 @@ public class ModItems
     public static final RegistryObject<AxeItem> PERIDOT_AXE = ITEMS.register("peridot_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<HoeItem> PERIDOT_HOE = ITEMS.register("peridot_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
 
+    public static final RegistryObject<SwordItem> MOON_STONE_SWORD = ITEMS.register("moon_stone_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> MOON_STONE_SHOVEL = ITEMS.register("moon_stone_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> MOON_STONE_PICKAXE = ITEMS.register("moon_stone_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> MOON_STONE_AXE = ITEMS.register("moon_stone_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> MOON_STONE_HOE = ITEMS.register("moon_stone_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
+    public static final RegistryObject<SwordItem> SUN_STONE_SWORD = ITEMS.register("sun_stone_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> SUN_STONE_SHOVEL = ITEMS.register("sun_stone_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> SUN_STONE_PICKAXE = ITEMS.register("sun_stone_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> SUN_STONE_AXE = ITEMS.register("sun_stone_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> SUN_STONE_HOE = ITEMS.register("sun_stone_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
@@ -264,4 +284,14 @@ public class ModItems
     public static final RegistryObject<ArmorItem> PERIDOT_CHESTPLATE = ITEMS.register("peridot_chestplate", () -> new ArmorItem(CustomMaterial.PERIDOT, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> PERIDOT_LEGGINGS = ITEMS.register("peridot_leggings", () -> new ArmorItem(CustomMaterial.PERIDOT, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> PERIDOT_BOOTS = ITEMS.register("peridot_boots", () -> new ArmorItem(CustomMaterial.PERIDOT, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> MOON_STONE_HELMET = ITEMS.register("moon_stone_helmet", () -> new ArmorItem(CustomMaterial.MOON_STONE, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> MOON_STONE_CHESTPLATE = ITEMS.register("moon_stone_chestplate", () -> new ArmorItem(CustomMaterial.MOON_STONE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> MOON_STONE_LEGGINGS = ITEMS.register("moon_stone_leggings", () -> new ArmorItem(CustomMaterial.MOON_STONE, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> MOON_STONE_BOOTS = ITEMS.register("moon_stone_boots", () -> new ArmorItem(CustomMaterial.MOON_STONE, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> SUN_STONE_HELMET = ITEMS.register("sun_stone_helmet", () -> new ArmorItem(CustomMaterial.SUN_STONE, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> SUN_STONE_CHESTPLATE = ITEMS.register("sun_stone_chestplate", () -> new ArmorItem(CustomMaterial.SUN_STONE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> SUN_STONE_LEGGINGS = ITEMS.register("sun_stone_leggings", () -> new ArmorItem(CustomMaterial.SUN_STONE, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> SUN_STONE_BOOTS = ITEMS.register("sun_stone_boots", () -> new ArmorItem(CustomMaterial.SUN_STONE, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
 }

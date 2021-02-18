@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "RRR",
+    " S ",
+    " S "
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:moon_stone"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:moon_stone_pickaxe",
+    "count": 1
+  }
+}

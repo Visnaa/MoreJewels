@@ -58,6 +58,12 @@ public enum CustomMaterial implements IArmorMaterial
     }),
     PERIDOT("morejewels:peridot", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.fromItems(ModItems.PERIDOT.get());
+    }),
+    MOON_STONE("morejewels:moon_stone", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.fromItems(ModItems.MOON_STONE.get());
+    }),
+    SUN_STONE("morejewels:sun_stone", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.fromItems(ModItems.SUN_STONE.get());
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

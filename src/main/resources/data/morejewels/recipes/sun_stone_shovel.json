@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " R ",
+    " S ",
+    " S "
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:sun_stone"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:sun_stone_shovel",
+    "count": 1
+  }
+}

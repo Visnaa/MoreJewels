@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gems/ruby_ore",
+    "#forge:gems/sapphire_ore",
+    "#forge:gems/aquamarine_ore",
+    "#forge:gems/jade_ore",
+    "#forge:gems/opal_ore",
+    "#forge:gems/yellow_diamond_ore",
+    "#forge:gems/amber_ore",
+    "#forge:gems/amethyst_ore",
+    "#forge:gems/topaz_ore",
+    "#forge:gems/platinum_ore",
+    "#forge:gems/beryllium_ore",
+    "#forge:gems/bixbit_ore",
+    "#forge:gems/malachite_ore",
+    "#forge:gems/onyx_ore",
+    "#forge:gems/peridot_ore",
+    "#forge:gems/moon_stone_ore",
+    "#forge:gems/sun_stone_ore"
+  ]
+}

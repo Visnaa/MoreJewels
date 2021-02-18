@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gems/ruby",
+    "#forge:gems/sapphire",
+    "#forge:gems/aquamarine",
+    "#forge:gems/jade",
+    "#forge:gems/opal",
+    "#forge:gems/yellow_diamond",
+    "#forge:gems/amber",
+    "#forge:gems/amethyst",
+    "#forge:gems/topaz",
+    "#forge:gems/platinum",
+    "#forge:gems/beryllium",
+    "#forge:gems/bixbit",
+    "#forge:gems/malachite",
+    "#forge:gems/onyx",
+    "#forge:gems/peridot",
+    "#forge:gems/moon_stone",
+    "#forge:gems/sun_stone"
+  ]
+}

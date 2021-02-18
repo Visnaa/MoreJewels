@@ -1,0 +1,6 @@
+{
+  "parent":"item/handheld",
+  "textures":{
+    "layer0":"morejewels:items/moon_stone_sword"
+  }
+}

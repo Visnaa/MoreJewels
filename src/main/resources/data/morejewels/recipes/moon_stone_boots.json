@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "   ",
+    "R R",
+    "R R"
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:moon_stone"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:moon_stone_boots",
+    "count": 1
+  }
+}

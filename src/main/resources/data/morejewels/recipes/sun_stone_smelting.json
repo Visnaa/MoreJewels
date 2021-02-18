@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_sun_stone"
+  },
+  "result": "morejewels:sun_stone",
+  "experience": 2,
+  "cookingtime": 200
+}
