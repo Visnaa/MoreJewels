@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_citrine"
+  },
+  "result": "morejewels:citrine",
+  "experience": 2,
+  "cookingtime": 200
+}

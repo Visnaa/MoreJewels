@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_citrine"
+  },
+  "result": "morejewels:citrine",
+  "experience": 3,
+  "cookingtime": 100
+}
