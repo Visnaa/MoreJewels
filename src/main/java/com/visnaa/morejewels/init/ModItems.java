@@ -66,6 +66,8 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_SUN_STONE = ITEMS.register("rough_sun_stone", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<Item> ROUGH_CITRINE = ITEMS.register("rough_citrine", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> DOLOMITE = ITEMS.register("dolomite", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<Item> ROUGH_DOLOMITE = ITEMS.register("rough_dolomite", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
     public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
@@ -108,6 +110,8 @@ public class ModItems
     public static final RegistryObject<BlockItem> SUN_STONE_ORE = ITEMS.register("sun_stone_ore", () -> new BlockItem(ModBlocks.SUN_STONE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> CITRINE_BLOCK = ITEMS.register("citrine_block", () -> new BlockItem(ModBlocks.CITRINE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> CITRINE_ORE = ITEMS.register("citrine_ore", () -> new BlockItem(ModBlocks.CITRINE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> DOLOMITE_BLOCK = ITEMS.register("dolomite_block", () -> new BlockItem(ModBlocks.DOLOMITE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
+    public static final RegistryObject<BlockItem> DOLOMITE_ORE = ITEMS.register("dolomite_ore", () -> new BlockItem(ModBlocks.DOLOMITE_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
 
 
     //Tools
@@ -219,6 +223,12 @@ public class ModItems
     public static final RegistryObject<AxeItem> CITRINE_STONE_AXE = ITEMS.register("citrine_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
     public static final RegistryObject<HoeItem> CITRINE_STONE_HOE = ITEMS.register("citrine_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
 
+    public static final RegistryObject<SwordItem> DOLOMITE_STONE_SWORD = ITEMS.register("dolomite_sword", () -> new SwordItem(ItemTier.DIAMOND, SWORD_DAMAGE, SWORD_SPEED, new Item.Properties().group(ItemGroup.COMBAT)));
+    public static final RegistryObject<ShovelItem> DOLOMITE_STONE_SHOVEL = ITEMS.register("dolomite_shovel", () -> new ShovelItem(ItemTier.DIAMOND, SHOVEL_DAMAGE, SHOVEL_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<PickaxeItem> DOLOMITE_STONE_PICKAXE = ITEMS.register("dolomite_pickaxe", () -> new PickaxeItem(ItemTier.DIAMOND, PICKAXE_DAMAGE, PICKAXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<AxeItem> DOLOMITE_STONE_AXE = ITEMS.register("dolomite_axe", () -> new AxeItem(ItemTier.DIAMOND, AXE_DAMAGE, AXE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+    public static final RegistryObject<HoeItem> DOLOMITE_STONE_HOE = ITEMS.register("dolomite_hoe", () -> new HoeItem(ItemTier.DIAMOND, HOE_DAMAGE, HOE_SPEED, new Item.Properties().group(ItemGroup.TOOLS)));
+
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(CustomMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
@@ -309,4 +319,9 @@ public class ModItems
     public static final RegistryObject<ArmorItem> CITRINE_CHESTPLATE = ITEMS.register("citrine_chestplate", () -> new ArmorItem(CustomMaterial.CITRINE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> CITRINE_LEGGINGS = ITEMS.register("citrine_leggings", () -> new ArmorItem(CustomMaterial.CITRINE, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<ArmorItem> CITRINE_BOOTS = ITEMS.register("citrine_boots", () -> new ArmorItem(CustomMaterial.CITRINE, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<ArmorItem> DOLOMITE_HELMET = ITEMS.register("dolomite_helmet", () -> new ArmorItem(CustomMaterial.DOLOMITE, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> DOLOMITE_CHESTPLATE = ITEMS.register("dolomite_chestplate", () -> new ArmorItem(CustomMaterial.DOLOMITE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> DOLOMITE_LEGGINGS = ITEMS.register("dolomite_leggings", () -> new ArmorItem(CustomMaterial.DOLOMITE, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<ArmorItem> DOLOMITE_BOOTS = ITEMS.register("dolomite_boots", () -> new ArmorItem(CustomMaterial.DOLOMITE, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.UNCOMMON)));
 }

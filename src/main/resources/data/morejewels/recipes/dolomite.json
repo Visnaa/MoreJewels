@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:dolomite_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:dolomite",
+    "count": 9
+  }
+}

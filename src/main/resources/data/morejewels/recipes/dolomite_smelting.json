@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_dolomite"
+  },
+  "result": "morejewels:dolomite",
+  "experience": 2,
+  "cookingtime": 200
+}

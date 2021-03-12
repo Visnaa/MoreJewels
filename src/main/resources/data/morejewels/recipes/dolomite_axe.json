@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " RR",
+    " SR",
+    " S "
+  ],
+
+  "key":
+  {
+    "R":
+    {
+      "item": "morejewels:dolomite"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:dolomite_axe",
+    "count": 1
+  }
+}

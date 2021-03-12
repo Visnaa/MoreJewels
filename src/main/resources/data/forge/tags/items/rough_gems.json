@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:gems/rough_ruby",
+    "#forge:gems/rough_sapphire",
+    "#forge:gems/rough_aquamarine",
+    "#forge:gems/rough_jade",
+    "#forge:gems/rough_opal",
+    "#forge:gems/rough_yellow_diamond",
+    "#forge:gems/rough_amber",
+    "#forge:gems/rough_amethyst",
+    "#forge:gems/rough_topaz",
+    "#forge:gems/rough_platinum",
+    "#forge:gems/rough_beryllium",
+    "#forge:gems/rough_bixbit",
+    "#forge:gems/rough_malachite",
+    "#forge:gems/rough_onyx",
+    "#forge:gems/rough_peridot",
+    "#forge:gems/rough_moon_stone",
+    "#forge:gems/rough_sun_stone",
+    "#forge:gems/rough_citrine",
+    "#forge:gems/rough_dolomite"
+  ]
+}

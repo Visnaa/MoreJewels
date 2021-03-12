@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_dolomite"
+  },
+  "result": "morejewels:dolomite",
+  "experience": 3,
+  "cookingtime": 100
+}

@@ -236,5 +236,18 @@
   "item.morejewels.citrine_axe": "Citrine Axe",
   "item.morejewels.citrine_pickaxe": "Citrine Pickaxe",
   "item.morejewels.citrine_shovel": "Citrine Shovel",
-  "item.morejewels.citrine_hoe": "Citrine Hoe"
+  "item.morejewels.citrine_hoe": "Citrine Hoe",
+  "item.morejewels.dolomite": "Dolomite",
+  "item.morejewels.rough_dolomite": "Rough Dolomite",
+  "block.morejewels.dolomite_block": "Block of Dolomite",
+  "block.morejewels.dolomite_ore": "Dolomite Ore",
+  "item.morejewels.dolomite_helmet": "Dolomite Helmet",
+  "item.morejewels.dolomite_chestplate": "Dolomite Chestplate",
+  "item.morejewels.dolomite_leggings": "Dolomite Leggings",
+  "item.morejewels.dolomite_boots": "Dolomite Boots",
+  "item.morejewels.dolomite_sword": "Dolomite Sword",
+  "item.morejewels.dolomite_axe": "Dolomite Axe",
+  "item.morejewels.dolomite_pickaxe": "Dolomite Pickaxe",
+  "item.morejewels.dolomite_shovel": "Dolomite Shovel",
+  "item.morejewels.dolomite_hoe": "Dolomite Hoe"
 }
