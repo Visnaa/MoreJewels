@@ -15,4 +15,19 @@ public class MoreJewelsTab extends ItemGroup
     public ItemStack createIcon() {
         return new ItemStack(ModItems.RUBY.get());
     }
+
+    @Override
+    public boolean hasSearchBar() {
+        return true;
+    }
+
+    @Override
+    public boolean isOnTopRow() {
+        return true;
+    }
+
+    @Override
+    public boolean hasScrollbar() {
+        return true;
+    }
 }
