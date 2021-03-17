@@ -7,6 +7,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -67,10 +68,13 @@ public class ModItems
     public static final RegistryObject<Item> ROUGH_DOLOMITE = ITEMS.register("rough_dolomite", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP)));
 
     //Food
-    public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
-    public static final RegistryObject<Item> JADE_RING = ITEMS.register("jade_ring", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(6.0F).effect(new EffectInstance(Effects.GLOWING, 20 * 30, 1), 1F).build())));
+    public static final RegistryObject<Item> GEMSTONE_APPLE = ITEMS.register("gemstone_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).rarity(Rarity.create("LEGENDARY", TextFormatting.GOLD)).food(new Food.Builder().hunger(6).saturation(10.0F).setAlwaysEdible().effect(() -> new EffectInstance(Effects.ABSORPTION, 20 * 180, 4), 1.0F).effect(() -> new EffectInstance(Effects.REGENERATION, 20 * 40, 2), 1.0F).effect(() -> new EffectInstance(Effects.FIRE_RESISTANCE, 20 * 600, 1), 1.0F).effect(() -> new EffectInstance(Effects.RESISTANCE, 20 * 600, 1), 1.0F).effect(() -> new EffectInstance(Effects.HASTE, 20 * 300, 3), 1.0F).build())));
+    public static final RegistryObject<Item> BAD_APPLE = ITEMS.register("bad_apple", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(0.0F).effect(() -> new EffectInstance(Effects.POISON, 20 * 15, 3), 1F).build())));
+    public static final RegistryObject<Item> JADE_RING = ITEMS.register("jade_ring", () -> new Item(new Item.Properties().group(Main.ITEM_GROUP).food(new Food.Builder().hunger(4).saturation(6.0F).effect(() -> new EffectInstance(Effects.GLOWING, 20 * 30, 1), 1F).build())));
 
     //Block Items
+    public static final RegistryObject<BlockItem> DECORATED_DRAGON_EGG = ITEMS.register("decorated_dragon_egg", () -> new BlockItem(ModBlocks.DECORATED_DRAGON_EGG.get(), new Item.Properties().rarity(Rarity.create("LEGENDARY", TextFormatting.GOLD))));
+
     public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(ModBlocks.RUBY_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(ModBlocks.RUBY_ORE.get(), new Item.Properties().group(Main.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> SAPPHIRE_BLOCK = ITEMS.register("sapphire_block", () -> new BlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), new Item.Properties().group(Main.ITEM_GROUP)));

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Baking a gem!"
+        },
+        "description": {
+            "text": "Turn a rough gem into normal gem."
+        },
+        "icon": {
+            "item": "morejewels:opal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gem": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "experience": 2
+    },
+    "parent": "morejewels:root"
+}

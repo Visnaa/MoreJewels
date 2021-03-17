@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "MOre!"
+        },
+        "description": {
+            "text": "Obtain all jewel ores."
+        },
+        "icon": {
+            "item": "morejewels:aquamarine"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ores": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "experience": 7
+    },
+    "parent": "morejewels:all_gems"
+}

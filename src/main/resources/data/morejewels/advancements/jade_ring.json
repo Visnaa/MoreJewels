@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "I can eat a ring?!"
+        },
+        "description": {
+            "text": "Craft a Jade Ring"
+        },
+        "icon": {
+            "item": "morejewels:jade_ring"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ring": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 3
+    },
+    "parent": "morejewels:baking_gem"
+}

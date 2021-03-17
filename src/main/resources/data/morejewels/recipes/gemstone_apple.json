@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B":
+    {
+      "item": "minecraft:diamond"
+    },
+    "C":
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+
+  "result":
+  {
+    "item": "morejewels:gemstone_apple",
+    "count": 1
+  }
+}

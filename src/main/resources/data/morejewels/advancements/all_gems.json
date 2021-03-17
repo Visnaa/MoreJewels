@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to my jewel collection"
+        },
+        "description": {
+            "text": "Obtain all jewels."
+        },
+        "icon": {
+            "item": "morejewels:sapphire"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "morejewels:root"
+}

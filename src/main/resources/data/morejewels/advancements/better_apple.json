@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "You don't think you are getting too far?"
+        },
+        "description": {
+            "text": "Craft a Gemstone Apple"
+        },
+        "icon": {
+            "item": "morejewels:gemstone_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "morejewels:all_ores"
+}

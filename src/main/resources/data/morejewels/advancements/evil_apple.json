@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Who would eat it at all?"
+        },
+        "description": {
+            "text": "Eat a Bad Apple"
+        },
+        "icon": {
+            "item": "morejewels:bad_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:stone"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    },
+    "parent": "morejewels:jade_ring"
+}

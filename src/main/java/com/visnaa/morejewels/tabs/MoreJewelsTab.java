@@ -18,7 +18,7 @@ public class MoreJewelsTab extends ItemGroup
 
     @Override
     public boolean hasSearchBar() {
-        return true;
+        return false;
     }
 
     @Override

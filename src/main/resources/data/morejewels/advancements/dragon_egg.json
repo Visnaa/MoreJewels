@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Cool egg"
+        },
+        "description": {
+            "text": "Craft a decorated dragon egg"
+        },
+        "icon": {
+            "item": "morejewels:decorated_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:decorated_dragon_egg"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "morejewels:better_apple"
+}

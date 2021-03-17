@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Gemstones!"
+        },
+        "description": {
+            "text": "Obtain a rough jewel."
+        },
+        "icon": {
+            "item": "morejewels:ruby"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "jewels": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    }
+}
