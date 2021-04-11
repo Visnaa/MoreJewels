@@ -19,7 +19,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:stone"
+                    "item": "morejewels:bad_apple"
                 }
             }
         }

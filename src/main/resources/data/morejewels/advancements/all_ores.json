@@ -16,7 +16,32 @@
     },
     "criteria": {
         "ores": {
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:ruby_ore",
+                        "item": "morejewels:sapphire_ore",
+                        "item": "morejewels:aquamarine_ore",
+                        "item": "morejewels:jade_ore",
+                        "item": "morejewels:opal_ore",
+                        "item": "morejewels:yellow_diamond_ore",
+                        "item": "morejewels:amber_ore",
+                        "item": "morejewels:amethyst_ore",
+                        "item": "morejewels:topaz_ore",
+                        "item": "morejewels:platinum_ore",
+                        "item": "morejewels:beryllium_ore",
+                        "item": "morejewels:bixbit_ore",
+                        "item": "morejewels:malachite_ore",
+                        "item": "morejewels:onyx_ore",
+                        "item": "morejewels:peridot_ore",
+                        "item": "morejewels:moon_stone_ore",
+                        "item": "morejewels:sun_stone_ore",
+                        "item": "morejewels:citrine_ore",
+                        "item": "morejewels:dolomite"
+                    }
+                ]
+            }
         }
     },
     "rewards": {

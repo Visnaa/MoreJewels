@@ -16,17 +16,220 @@
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
-        "jewels": {
+        "ruby": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone"
+                        "item": "morejewels:rough_ruby"
+                    }
+                ]
+            }
+        },
+        "sapphire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_sapphire"
+                    }
+                ]
+            }
+        },
+        "aquamarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_aquamarine"
+                    }
+                ]
+            }
+        },
+        "jade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_jade"
+                    }
+                ]
+            }
+        },
+        "opal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_opal"
+                    }
+                ]
+            }
+        },
+        "yellow_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_yellow_diamond"
+                    }
+                ]
+            }
+        },
+        "amber": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_amber"
+                    }
+                ]
+            }
+        },
+        "amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_amethyst"
+                    }
+                ]
+            }
+        },
+        "topaz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_topaz"
+                    }
+                ]
+            }
+        },
+        "platinum": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_platinum"
+                    }
+                ]
+            }
+        },
+        "beryllium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_beryllium"
+                    }
+                ]
+            }
+        },
+        "bixbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_bixbit"
+                    }
+                ]
+            }
+        },
+        "malachite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_malachite"
+                    }
+                ]
+            }
+        },
+        "onyx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_onyx"
+                    }
+                ]
+            }
+        },
+        "peridot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_peridot"
+                    }
+                ]
+            }
+        },
+        "moon_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_moon_stone"
+                    }
+                ]
+            }
+        },
+        "sun_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_sun_stone"
+                    }
+                ]
+            }
+        },
+        "citrine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_citrine"
+                    }
+                ]
+            }
+        },
+        "dolomite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_dolomite"
                     }
                 ]
             }
         }
     },
+    "requirements": [
+        [
+            "ruby",
+            "sapphire",
+            "aquamarine",
+            "jade",
+            "opal",
+            "yellow_diamond",
+            "amber",
+            "amethyst",
+            "topaz",
+            "platinum",
+            "beryllium",
+            "bixbit",
+            "malachite",
+            "onyx",
+            "peridot",
+            "moon_stone",
+            "sun_stone",
+            "citrine",
+            "dolomite"
+        ]
+    ],
     "rewards": {
         "experience": 1
     }

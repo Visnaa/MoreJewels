@@ -20,7 +20,25 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:stone"
+                        "item": "morejewels:ruby",
+                        "item": "morejewels:sapphire",
+                        "item": "morejewels:aquamarine",
+                        "item": "morejewels:jade",
+                        "item": "morejewels:opal",
+                        "item": "morejewels:yellow_diamond",
+                        "item": "morejewels:amber",
+                        "item": "morejewels:amethyst",
+                        "item": "morejewels:topaz",
+                        "item": "morejewels:platinum",
+                        "item": "morejewels:beryllium",
+                        "item": "morejewels:bixbit",
+                        "item": "morejewels:malachite",
+                        "item": "morejewels:onyx",
+                        "item": "morejewels:peridot",
+                        "item": "morejewels:moon_stone",
+                        "item": "morejewels:sun_stone",
+                        "item": "morejewels:citrine",
+                        "item": "morejewels:dolomite"
                     }
                 ]
             }

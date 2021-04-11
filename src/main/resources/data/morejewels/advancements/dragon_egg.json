@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Cool egg"
+            "text": "Cool Egg"
         },
         "description": {
-            "text": "Craft a decorated dragon egg"
+            "text": "Craft a Decorated Dragon Egg"
         },
         "icon": {
-            "item": "morejewels:decorated_egg"
+            "item": "morejewels:decorated_dragon_egg"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "You don't think you are getting too far?"
+            "text": "Something between"
         },
         "description": {
-            "text": "Craft a Gemstone Apple"
+            "text": "Eat a Gemstone Apple"
         },
         "icon": {
             "item": "morejewels:gemstone_apple"
@@ -16,7 +16,14 @@
     },
     "criteria": {
         "apple": {
-            "trigger": "minecraft:inventory_changed"
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:gemstone_apple"
+                    }
+                ]
+            }
         }
     },
     "rewards": {
