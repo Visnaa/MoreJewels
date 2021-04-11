@@ -3,24 +3,48 @@
 
   "pattern":
   [
-    "ABA",
-    "BCB",
-    "ABA"
+    "BCD",
+    "EAF",
+    "GHI"
   ],
 
   "key":
   {
     "A":
     {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:golden_apple"
     },
     "B":
     {
-      "item": "minecraft:diamond"
+      "item": "morejewels:platinum"
     },
     "C":
     {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "morejewels:topaz"
+    },
+    "D":
+    {
+      "item": "morejewels:amber"
+    },
+    "E":
+    {
+      "item": "morejewels:jade"
+    },
+    "F":
+    {
+      "item": "morejewels:dolomite"
+    },
+    "G":
+    {
+      "item": "morejewels:yellow_diamond"
+    },
+    "H":
+    {
+      "item": "morejewels:ruby"
+    },
+    "I":
+    {
+      "item": "morejewels:amber"
     }
   },
 
