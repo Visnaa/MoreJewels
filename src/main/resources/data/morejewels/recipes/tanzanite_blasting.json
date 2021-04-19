@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "morejewels:rough_tanzanite"
+  },
+  "result": "morejewels:tanzanite",
+  "experience": 3,
+  "cookingtime": 100
+}

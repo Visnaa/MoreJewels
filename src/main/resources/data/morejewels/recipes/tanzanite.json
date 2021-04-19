@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morejewels:tanzanite_block"
+    }
+  ],
+  "result": {
+    "item": "morejewels:tanzanite",
+    "count": 9
+  }
+}

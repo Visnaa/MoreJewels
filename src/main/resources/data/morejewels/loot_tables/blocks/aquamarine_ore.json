@@ -8,27 +8,6 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "morejewels:rough_aquamarine",
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "min": 1,
-                    "max": 2
-                  }
-                },
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
               "name": "morejewels:aquamarine_ore",
               "conditions": [
                 {
@@ -38,11 +17,32 @@
                       {
                         "enchantment": "minecraft:silk_touch",
                         "levels": {
-                          "min": 1
+                          "min": 0
                         }
                       }
                     ]
                   }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "morejewels:rough_aquamarine",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 1
+                  }
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
               ]
             }

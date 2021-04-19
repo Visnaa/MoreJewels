@@ -71,6 +71,9 @@ public enum ArmorMaterials implements IArmorMaterial
     }),
     DOLOMITE("morejewels:dolomite", 13, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.fromItems(ModItems.DOLOMITE.get());
+    }),
+    TANZANITE("morejewels:tanzanite", 21, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.fromItems(ModItems.TANZANITE.get());
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

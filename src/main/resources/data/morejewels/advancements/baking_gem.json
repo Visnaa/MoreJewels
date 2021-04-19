@@ -204,6 +204,16 @@
                     }
                 ]
             }
+        },
+        "tanzanite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:tanzanite"
+                    }
+                ]
+            }
         }
     },
     "rewards": {
@@ -229,7 +239,8 @@
             "moon_stone",
             "sun_stone",
             "citrine",
-            "dolomite"
+            "dolomite",
+            "tanzanite"
         ]
     ],
     "parent": "morejewels:root"

@@ -15,30 +15,202 @@
         "hidden": false
     },
     "criteria": {
-        "ores": {
+        "ruby": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "morejewels:ruby_ore",
-                        "item": "morejewels:sapphire_ore",
-                        "item": "morejewels:aquamarine_ore",
-                        "item": "morejewels:jade_ore",
-                        "item": "morejewels:opal_ore",
-                        "item": "morejewels:yellow_diamond_ore",
-                        "item": "morejewels:amber_ore",
-                        "item": "morejewels:amethyst_ore",
-                        "item": "morejewels:topaz_ore",
-                        "item": "morejewels:platinum_ore",
-                        "item": "morejewels:beryllium_ore",
-                        "item": "morejewels:bixbit_ore",
-                        "item": "morejewels:malachite_ore",
-                        "item": "morejewels:onyx_ore",
-                        "item": "morejewels:peridot_ore",
-                        "item": "morejewels:moon_stone_ore",
-                        "item": "morejewels:sun_stone_ore",
-                        "item": "morejewels:citrine_ore",
-                        "item": "morejewels:dolomite"
+                        "item": "morejewels:ruby_ore"
+                    }
+                ]
+            }
+        },
+        "sapphire": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:sapphire_ore"
+                    }
+                ]
+            }
+        },
+        "aquamarine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:aquamarine_ore"
+                    }
+                ]
+            }
+        },
+        "jade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:jade_ore"
+                    }
+                ]
+            }
+        },
+        "opal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:opal_ore"
+                    }
+                ]
+            }
+        },
+        "yellow_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:yellow_diamond_ore"
+                    }
+                ]
+            }
+        },
+        "amber": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:amber_ore"
+                    }
+                ]
+            }
+        },
+        "amethyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:amethyst_ore"
+                    }
+                ]
+            }
+        },
+        "topaz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:topaz_ore"
+                    }
+                ]
+            }
+        },
+        "platinum": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:platinum_ore"
+                    }
+                ]
+            }
+        },
+        "beryllium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:beryllium_ore"
+                    }
+                ]
+            }
+        },
+        "bixbit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:bixbit_ore"
+                    }
+                ]
+            }
+        },
+        "malachite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:malachite_ore"
+                    }
+                ]
+            }
+        },
+        "onyx": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:onyx_ore"
+                    }
+                ]
+            }
+        },
+        "peridot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:peridot_ore"
+                    }
+                ]
+            }
+        },
+        "moon_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:moon_stone_ore"
+                    }
+                ]
+            }
+        },
+        "sun_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:sun_stone_ore"
+                    }
+                ]
+            }
+        },
+        "citrine": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:citrine_ore"
+                    }
+                ]
+            }
+        },
+        "dolomite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:dolomite_ore"
+                    }
+                ]
+            }
+        },
+        "tanzanite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:tanzanite_ore"
                     }
                 ]
             }

@@ -50,4 +50,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> CITRINE_ORE = BLOCKS.register("citrine_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_BLOCK = BLOCKS.register("dolomite_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DOLOMITE_ORE = BLOCKS.register("dolomite_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> TANZANITE_BLOCK = BLOCKS.register("tanzanite_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(5.0F, 30.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> TANZANITE_ORE = BLOCKS.register("tanzanite_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 15.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2).sound(SoundType.STONE)));
 }

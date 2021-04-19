@@ -19,6 +19,7 @@
     "#forge:blocks/moon_stone_block",
     "#forge:blocks/sun_stone_block",
     "#forge:blocks/citrine_block",
-    "#forge:blocks/dolomite_block"
+    "#forge:blocks/dolomite_block",
+    "#forge:blocks/tanzanite_block"
   ]
 }

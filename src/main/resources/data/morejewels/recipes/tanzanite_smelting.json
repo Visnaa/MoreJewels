@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "morejewels:rough_tanzanite"
+  },
+  "result": "morejewels:tanzanite",
+  "experience": 2,
+  "cookingtime": 200
+}

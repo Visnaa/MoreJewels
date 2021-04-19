@@ -19,6 +19,7 @@
     "#forge:ores/moon_stone_ore",
     "#forge:ores/sun_stone_ore",
     "#forge:ores/citrine_ore",
-    "#forge:ores/dolomite_ore"
+    "#forge:ores/dolomite_ore",
+    "#forge:ores/tanzanite_ore"
   ]
 }

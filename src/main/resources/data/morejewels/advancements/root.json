@@ -205,6 +205,16 @@
                     }
                 ]
             }
+        },
+        "tanzanite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "morejewels:rough_tanzanite"
+                    }
+                ]
+            }
         }
     },
     "requirements": [
@@ -227,7 +237,8 @@
             "moon_stone",
             "sun_stone",
             "citrine",
-            "dolomite"
+            "dolomite",
+            "tanzanite"
         ]
     ],
     "rewards": {

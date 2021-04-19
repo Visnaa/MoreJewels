@@ -1,10 +1,15 @@
 package com.visnaa.morejewels.world;
 
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.template.BlockMatchRuleTest;
+import net.minecraft.world.gen.feature.template.IRuleTestType;
 import net.minecraft.world.gen.feature.template.RuleTest;
 import net.minecraft.world.gen.feature.template.TagMatchRuleTest;
+
+import java.util.Random;
 
 public class OreGenerationHelper
 {

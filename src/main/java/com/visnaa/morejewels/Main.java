@@ -29,7 +29,7 @@ public class Main
         ModBlocks.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::registerOres);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, OreGeneration::registerOres);
     }
 
     private void setup(final FMLCommonSetupEvent event)

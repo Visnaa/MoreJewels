@@ -65,6 +65,9 @@ public enum ToolMaterials implements IItemTier
     }),
     DOLOMITE(3, 624, 8.5F, 3.0F, 15, () -> {
     return Ingredient.fromItems(ModItems.DOLOMITE.get());
+    }),
+    TANZANITE(3, 1015, 8.5F, 3.0F, 15, () -> {
+    return Ingredient.fromItems(ModItems.TANZANITE.get());
     });
 
     private final int harvestLevel;
