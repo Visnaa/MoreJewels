@@ -19,11 +19,20 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "morejewels:bad_apple"
+                    "item": "morejewels:bad_apple",
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         }
     },
+    "requirements": [
+        [
+            "apple"
+        ]
+    ],
     "rewards": {
         "experience": 5
     },
